@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="bg-white p-2 ">
       <div className="flex flex-col ">
-        <section className="darkgreen rounded-md px-5 md:px-10 lg:px-20 grid grid-cols-1 md:grid-cols-2 ">
+        <section className="darkgreen rounded-md text-white px-5 md:px-10 lg:px-20 grid grid-cols-1 md:grid-cols-2 ">
           <div className="flex m-auto text-6xl font-bold flex-col ">
             <p className="">Explore tailored</p>
             <p className="">
@@ -119,7 +119,7 @@ export default function Home() {
           <Courselist />
         </section>
 
-        <section className="testomonial py-10 px-5 flex flex-col gap-20 md:px-10 lg:px-20 p h-screen darkgreen rounded-[20px]">
+        <section className="testomonial text-white py-10 px-5 flex flex-col gap-20 md:px-10 lg:px-20 p h-screen darkgreen rounded-[20px]">
           <p className="text-5xl pt-10 font-bold text-center">
             Feedback from
             <span className="block pr-2">
@@ -142,7 +142,7 @@ export default function Home() {
           <SubscribeNewsletter />
         </section>
 
-        <section className="section rounded-[20px] text-4xl flex flex-col darkgreen py-20 my-10 items-center justify-center gap-8 px-5 md:px-10 lg:px-20">
+        <section className="section text-white rounded-[20px] text-4xl flex flex-col darkgreen py-20 my-10 items-center justify-center gap-8 px-5 md:px-10 lg:px-20">
           <p className="text-[4rem] text-center">
             Are you prepared to
             <span className="block mt-8 text-orange-500">begin Learning</span>
@@ -238,7 +238,7 @@ const SubscribeNewsletter = () => {
           role="alert"
         >
           <p className="font-bold">Thank you for subscribing!</p>
-          <p>You'll receive our next newsletter soon.</p>
+          <p>You &apos ll receive our next newsletter soon.</p>
         </div>
       ) : (
         <form

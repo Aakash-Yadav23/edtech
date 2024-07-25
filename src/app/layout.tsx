@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`relative dark ${inter.className}`}>
+      <body className={`relative ${inter.className}`}>
         <Navbar />
         {children}
 
